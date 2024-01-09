@@ -72,7 +72,7 @@
 	color: var(--Black-12, #1a181e);
 
 	/* Body 2/Regular */
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;

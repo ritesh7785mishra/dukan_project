@@ -15,6 +15,7 @@
 	border-radius: 4px;
 	border: 1px solid var(--Black-85, #d9d9d9);
 	background: var(--Black-100, #fff);
+	font-family: "Inter", sans-serif;
 }
 .pg-l-img {
 	width: 18px;
@@ -51,4 +52,5 @@
 	border-radius: 4px;
 	border: 1px solid var(--Black-85, #d9d9d9);
 	background: var(--Black-100, #fff);
+	font-family: "Inter", sans-serif;
 }
