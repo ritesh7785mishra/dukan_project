@@ -59,7 +59,7 @@
 .table-b .oid {
 	color: var(--Primary-Blue, #146eb4);
 	/* Body 2/Medium */
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 500;
