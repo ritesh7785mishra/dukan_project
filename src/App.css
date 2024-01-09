@@ -1,0 +1,17 @@
+.main {
+	display: inline-flex;
+	min-height: 1482px;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+.left-section {
+	display: flex;
+	max-width: 224px;
+	padding: 16px 10px;
+	flex-direction: column;
+	align-items: start;
+	gap: 16px;
+	flex: 1 0 0;
+	background: var(--Secondary-Navbar, #1e2640);
+}

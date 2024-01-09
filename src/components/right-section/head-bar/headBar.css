@@ -1,0 +1,10 @@
+.headbar {
+	display: flex;
+	max-width: 1216px;
+	padding: 12px 32px;
+	align-items: center;
+	gap: 16px;
+	border-bottom: 1px solid #d9d9d9;
+	background: #fff;
+	margin-bottom: 32px;
+}

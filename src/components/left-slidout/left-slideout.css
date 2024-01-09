@@ -1,0 +1,29 @@
+.left-slide-out {
+	gap: 16px;
+	display: flex;
+	flex-direction: column;
+}
+.left-pair {
+	display: flex;
+	align-items: center;
+	align-self: flex-start;
+}
+
+.pair-image {
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	opacity: 0.8;
+}
+
+.pair-title {
+	color: var(--Black-100, #fff);
+
+	/* Body 2/Medium */
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px; /* 142.857% */
+	margin-left: 12px;
+}

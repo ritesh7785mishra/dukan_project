@@ -1,0 +1,80 @@
+.btrTable {
+	display: flex;
+	width: 1128px;
+	padding: 10px 12px;
+	align-items: center;
+	/* gap: 40px; */
+
+	flex-direction: column;
+}
+
+.table-h {
+	display: flex;
+	width: 1128px;
+	padding: 10px 12px;
+	align-items: center;
+	background: var(--Black-95, #f2f2f2);
+	border-radius: 4px;
+	gap: 40px;
+}
+
+.oid,
+.o-date {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: flex-start;
+	gap: -1px;
+	flex: 1 0 0;
+	color: #4d4d4d;
+}
+
+.o-amount,
+.tf {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: center;
+	gap: 1px;
+	flex: 1 0 0;
+	color: #4d4d4d;
+}
+
+.table-h span {
+	width: 14px;
+	height: 14px;
+	display: inline;
+}
+
+.table-b {
+	display: flex;
+	width: 1128px;
+	padding: 10px 12px;
+	align-items: center;
+	border-radius: 4px;
+	gap: 40px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.table-b .oid {
+	color: var(--Primary-Blue, #146eb4);
+	/* Body 2/Medium */
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px; /* 142.857% */
+}
+
+.table-b .o-date,
+.table-b .o-amount,
+.table-b .tf {
+	color: var(--Black-12, #1a181e);
+
+	/* Body 2/Regular */
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 142.857% */
+}

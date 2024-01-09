@@ -1,0 +1,41 @@
+.middle-bottom {
+	display: flex;
+	justify-content: space-between;
+	width: 1128px;
+	gap: 20px;
+	margin-bottom: 32px;
+}
+
+.mid-c {
+	display: flex;
+	padding: 20px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+	flex: 1 0 0;
+	width: 566;
+	height: 118;
+	border-radius: var(--Spacing-spacing-04, 8px);
+	background: var(--Black-100, #fff);
+
+	/* Shadow/Card */
+	box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+}
+
+.up-text {
+	color: var(--Black-30, #4d4d4d);
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+}
+
+.num-text {
+	color: var(--Black-12, #1a181e);
+	font-family: Inter;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 38px; /* 118.75% */
+}

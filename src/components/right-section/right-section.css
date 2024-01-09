@@ -1,0 +1,9 @@
+.right-b-section {
+	display: flex;
+	max-width: 1152px;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 1152px;
+	margin-left: 32px;
+	margin-right: 32px;
+}
